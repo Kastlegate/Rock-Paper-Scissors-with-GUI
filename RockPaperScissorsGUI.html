@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title>Rock Paper Scissors. Now with GUI Action!</title>
+  
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+</head>
+<body>
+  
+  <!-- Div containing the intro to the game -->
+  <p id="header" class="header"> Hello! How about a game of Rock, Paper, Scissors? First person to 5 points wins!<br>
+    Select an icon below to start playing!</p>  
+
+  <!-- Div container with "buttons" (images) inside -->
+  <div class="buttonContainer">
+      <div class="rock" id="rock"><img src="images/rock.png"></div>
+      <div class="paper" id="paper"><img src="images/paper.png"></div> 
+      <div class="scissors" id="scissors"><img src="images/scissors.png"></div>  
+  </div>
+
+  <!-- Div containing the footer and score to the game -->
+  <div class='footer'><p id="roundStatus">I win if you don't play. Because I'm a winner.</p>
+    <div id="scoreBoard" class="scoreboard">Current Score: You: 0. Me: 0</div>  
+  </div>
+
+  <!-- Calling the javascript -->
+  <script src="rpsjs.js"></script> 
+
+</body>
+</html>

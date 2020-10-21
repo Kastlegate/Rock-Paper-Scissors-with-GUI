@@ -1,0 +1,60 @@
+
+.header, .footer{
+  margin: auto;
+  width: 80%;  
+  border: solid;
+  border-width: thin;
+  border-color: black;
+  padding: 5px;
+  text-align: center;
+  background-color: rgb(220, 233, 233);
+}
+
+.scoreBoard{
+  
+}
+
+
+.playerColor {
+  transform: scale(1.2);
+  border-color:blue;
+  box-shadow: 0 0 1rem blue;
+}
+
+.computerColor{
+  transform: scale(1.2);
+  border-color:red;
+  box-shadow: 0 0 1rem red;
+}
+
+.tieColor{
+  transform: scale(1.2);
+  border-color:rgb(204, 57, 199);
+  box-shadow: 0 0 1rem rgb(204, 57, 199);
+}
+
+
+.rock, .paper, .scissors{
+  cursor:pointer;
+  display: flex;
+  width: 100px;
+  height: 100px;
+  max-width: 100px;
+  transition: all .07s ease;
+  align-items: center;
+  padding: 0;
+  margin: 20px;
+  border: solid;
+  border-width: thin;
+  border-color: black;
+}
+
+
+
+.buttonContainer{
+  display: flex;
+  min-height: 50vh;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 2;     
+}
