@@ -33,6 +33,25 @@
   box-shadow: 0 0 1rem rgb(204, 57, 199);
 }
 
+.gameWonColor1{
+  transform: scale(2);
+  border-color:blue;
+  transition: all .4s !important;
+  box-shadow: 0 0 1rem blue;
+}
+.gameWonColor2{
+  transform: scale(2);
+  transition: all .3s !important;
+  border-color:red;
+  box-shadow: 0 0 1rem red;
+}
+.gameWonColor3{
+  transform: scale(2);
+  transition: all .5s !important;
+  border-color: rgb(204, 57, 199);
+  box-shadow: 0 0 1rem  rgb(204, 57, 199);
+}
+
 
 .rock, .paper, .scissors{
   cursor:pointer;
@@ -40,7 +59,7 @@
   width: 100px;
   height: 100px;
   max-width: 100px;
-  transition: all .07s ease;
+  transition: all 1s ease;
   align-items: center;
   padding: 0;
   margin: 20px;
