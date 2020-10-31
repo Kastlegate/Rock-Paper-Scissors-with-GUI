@@ -61,6 +61,7 @@ function scissorsMouseDown(){
   scoreUpdater()
 }
 
+//
 function removeTransition(e){
   //skips it if it's not a transform
   if(e.propertyName !== 'transform') return;
@@ -114,7 +115,7 @@ function tieRound(){
 function wonGame(){ 
   stop();
   wonGameAudio.play();
-  roundStatus.textContent = "GAME OVER MAN! GAME OVER!";
+  roundStatus.textContent = "NOOO! YOU WIN! GAME OVER MAN! GAME OVER!";
   header.textContent = "You Won This Time. Press An Icon Below to Play Again, You Swine!"
   playerScore = 0;
   computerScore = 0;   
@@ -126,7 +127,7 @@ function wonGame(){
 function lostGame(){
   stop();
   lostGameAudio.play();
-  roundStatus.textContent = "YOU SHALL NEVER BEAT ME! AHAHA!";
+  roundStatus.textContent = "YOU LOST! YOU SHALL NEVER BEAT ME! AHAHA!";
   header.textContent = "Press An Icon Below to Play Again, Sucker!"
   playerScore = 0;
   computerScore = 0;
